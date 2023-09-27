@@ -1,0 +1,135 @@
+div{padding:50px 30px 50px 80px}
+
+.div2{font-size:2em;color:#fff}
+
+.div3{margin-top:35em}
+
+.div4{font-size:2em;color:#fff}
+
+.botao{
+    border:solid 1px hsl(0,95%,37%);
+    border-radius:20px;color:hsl(0,0%,100%);
+    background-color:hsl(0,95%,37%);
+    transition:background-color .5s ease,color .5s ease,transform .5s ease
+}
+    
+ .botao:hover{
+     background-color:hsl(0,95%,37%);
+    color:#fff;transform:scale(1.2)
+}
+        
+ .div5{
+    font-size:1em;
+    color:#fff
+}
+    
+ .demo{
+    width:1500px;
+    height:1500px;
+    font-size:7em;
+    float:left;
+    text-align:center
+}
+
+.rainbow-bg{
+    animation:rainbow-bg 2.5s linear;animation-iteration-count:infinite
+}
+
+.rainbow{
+    animation:rainbow 2.5s linear;
+    animation-iteration-count:infinite
+}
+
+@keyframes rainbow-bg{100%,0%{background-color:red}8%{background-color:#ff7f00}16%{background-color:#ff0}25%{background-color:#7fff00}33%{background-color:#0f0}41%{background-color:#00ff7f}50%{background-color:#0ff}58%{background-color:#007fff}66%{background-color:#00f}75%{background-color:#7f00ff}83%{background-color:#f0f}91%{background-color:#ff007f}}@keyframes rainbow{100%,0%{color:red}8%{color:#ff7f00}16%{color:#ff0}25%{color:#7fff00}33%{color:#0f0}41%{color:#00ff7f}50%{color:#0ff}58%{color:#007fff}66%{color:#00f}75%{color:#7f00ff}83%{color:#f0f}91%{color:#ff007f}}
+
+
+@media (max-width: 840px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 100%;
+      
+    }
+
+    body {
+        margin-right: 150px;
+        
+    }
+  
+
+    .demo p {
+        position: relative;
+        left: 45px;
+        max-width: 100%;
+        text-align: center;
+        font-size: 50%;
+        bottom: 50px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+    }
+
+    .demo img {
+        height: 48%;
+    }
+
+    .div4 {
+        position: relative;
+        right: -20px;
+        bottom: 210px;
+        max-width: 100%;
+        text-align: center;
+        font-size: 100%;
+   
+    }
+
+    .div3 {
+        position: relative;
+        bottom: 640px;
+        right: -200px;
+     
+        
+    }
+
+    .div2 {
+        position: relative;
+        left: 150px;
+        bottom: 50px;
+       
+    }
+
+
+    .div5 {
+        position: relative;
+        right: 10rem;
+        bottom: 20rem;
+    }
+  
+    .dog {
+        left: 16.5rem;
+        position: absolute; /* Mudamos para absolute */
+        right: 950px; /* Ajuste a posição conforme necessário */
+        top: 800px; /* Ajuste a posição conforme necessário */
+     
+       
+    }
+
+    .alt {
+        position: relative;
+        left: 22rem;
+        
+    }
+  
+    a .botao {
+        position: relative;
+        left: 9rem; 
+        margin-top: 35rem;
+
+    }
+
+
+
+  
+}
